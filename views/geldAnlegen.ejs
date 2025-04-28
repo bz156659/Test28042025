@@ -23,7 +23,7 @@
     <main>
         <h1>Geld anlegen</h1>
 
-        <h2>Geben Sie hier Ihren Wunschbetrag an, um auszurechnen, wieviele Zinsen Sie nach der gewünschten Laufzeit bekommen werden.</h2>
+        <h2>Geben Sie hier Ihren Wunschbetrag an, der Zinsatz beträgt 10%.</h2>
 
         <!--Hier kommt das Formular hin:-->
 
@@ -32,7 +32,7 @@
             <label>Gewünschter Betrag in Euro</label></br>
             <!--Das Eingabefeld hat den type number, womit die Eingabe von Zahlen erzwungen wird.-->
             <!--Der Name lautet Betrag. Der Server greift über den Namen auf das Input zu.-->
-            <input type="number" name="Betrag" value=<%= Betrag %>></br>
+            <input type="number" name="Betrag" value=<%= 10 %>></br>
             <label>Gewünschte Laufzeit in Jahren</label></br>
             <input type="number" name="Laufzeit" value=<%= Laufzeit %>></br>
             <!--Die formaction legt fest, dass auf dem Server die app.post('/geldAnlegen') abgearbeitet wird,

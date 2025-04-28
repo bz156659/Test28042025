@@ -11,6 +11,18 @@ Am Ende müssen Sie Ihr Projekt commiten und pushen. Senden Sie mir den Link in 
 
 Beantworten Sie die folgenden Frage hier direkt im Text: Welche Aufgabe haben cookies in unserer Banking-App?
 
+<!--Cookies sind kleine Textdateien, die beim Besuch von Webseiten auf dem lokalen Rechner 
+  von Nutzern gespeichert werden. Beim erneuten Seitenbesuch können sie direkt an den Server gesendet werden.
+
+1. Cookies können notwendig sein oder z.B. der Werbung dienen.
+2. Cookies können z.B. ganz konkret einen Warenkorb nach Tagen wieder anzeigen, obwohl 
+   der Nutzer sich bei dem Händler noch nicht registriert hat.
+3. Der cookieparser ist für die Verarbeitung der cookies unserer App zuständig.
+4. Mit dem cookieparser können wir cookies setzen und auslesen und löschen.
+5. Man kann Cookies am Browser anzeigen, indem man F12 drückt.
+Weil man Cookies im Browser sehr einfach auslesen kann, kann man Cookies signieren. -->
+
+
 ## Aufgabe 3
 
 Auf der Seite Hilfe sind vier Fehler eingebaut. Finden und korrigieren Sie die Fehler. Schreiben Sie zu jedem Fehler eine Kommentarzeile, in der Sie schreiben, was Sie korrigiert haben.
